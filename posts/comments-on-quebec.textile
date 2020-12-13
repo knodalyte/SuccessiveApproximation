@@ -1,0 +1,19 @@
+<notextile>  <!--
+.. title: Comments on Quebec
+.. slug: comments-on-quebec
+.. date: 2014-08-28 10:23:38 UTC-04:00
+.. tags: travel 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+.. author: Craig Allen
+--></notextile>
+
+Having recently returned from a short vacation in Montreal and Quebec, I noticed a few things I wanted to comment about.
+
+It seems that Montreal is much more French than my last visit about 15 years ago.  Signs seldom have an English version, and when they do, the English is often a shortened version and sometimes in a smaller or low contrast font.  On the other hand - and maybe this is a consequence of traveling with children on this latest trip - spoken English seemed to be uniformly tolerated without any of the attitude I had noticed in a previous visit.
+
+In a couple of ways, technology is more sophisticated in Canada than in any city I have visited in the US recently.  In Canada, use of the wireless credit card terminals in restaurants and shops seems universal, but I have yet to see them in the US.  And of course these terminals work with smart credit cards with the embedded chip that the rest of the world has migrated to.
+
+Parking meters are more sophisticated in Quebec (and probably Montreal, but we didn't park on the street there) than in my limited circuit of American cities.  Every parking spot is marked with a number, and every block seems to have a parking payment kiosk.  At the kiosk, you enter the number, select how much you want to pay for time, and then either insert coins (no dollar bills in Canadian currency, only one and two dollar coins) or a credit card, and when you complete the transaction, a slip of paper emerges with your expiration time and the parking spot number.  So not only do you have a note of when your time expires, but you can add more time to an expired spot at any payment kiosk (in your sector, whatever that means), no need to go back to where your car is parked.  This system is called Pay and Go, and I wish we had it where I live.  The payment stations are wireless and solar powered!  And there are smartphone apps (at least for Montreal) and a web UI that you can pay with (and the apps remind you to pay)!

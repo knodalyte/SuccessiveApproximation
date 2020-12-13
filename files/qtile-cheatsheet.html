@@ -1,0 +1,128 @@
+<html>
+<head>
+<title>Qtile Cheatsheet</title>
+<link rel="stylesheet" href="http://bootswatch.com/paper/bootstrap.css"/>
+<style>
+.title {
+    font-weight:     bold;
+    font-size: larger;
+}
+.flex {
+    display:     flex;
+    flex-flow:  row wrap;
+    justify-content:    flex-start;
+}
+.flex > div {
+    display:     flex;
+    flex-flow:     column;
+    border: 1px solid gray;
+    border-radius: 1em;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+dd {
+    float: right;
+}
+dt {
+    clear: both;
+    float: left;
+    margin: 0 8px 0 0;
+}
+dt:nth-of-type(odd) {
+    background: #eee;
+   }
+dd:nth-of-type(odd) {
+   background: #eee;
+}
+</style>
+</head>
+<body>
+<div class="flex">
+    <div class="flexcol">
+        <span class="title">applications</span> <dl>
+            <dt>start terminal</dt><dd>M-Return</dd>
+            <dt>smart dmenu of programs</dt><dd>M-d</dd>
+            <dt>dmenu of desktop applications</dt><dd>M-S-d</dd>
+            <dt>dmenu of running applications </dt><dd>M-w<br/>M-z</dd>
+            <dt>exit focused application</dt><dd>M-x</dd>
+            <dt>prompt in bar</dt><dd>M-F2</dd>
+        </dl>
+    </div>
+
+    <div class="flexcol">
+        <span class="title">Layouts</span> <dl>
+            <dt>use stack layout</dt><dd>M-s</dd>
+            <dt>use xmonadtall layout</dt><dd>M-e</dd>
+            <dt>use max layout</dt><dd>M-a</dd>
+            <dt>use next layout</dt><dd>M-tab</dd>
+            <dt>toggle split</dt><dd>M-\</dd>
+        </dl>
+    </div>
+
+    <div class="flexcol">    
+        <span class="title">Groups (workspaces)</span> <dl>
+            <dt>switch to group #</dt> <dd>M-#</dd>
+            <dt>move window to group #</dt><dd>M-S-#</dd>
+            <dt>switch to next group</dt><dd>M-Right</dd>
+            <dt>switch to prior group</dt><dd>M-Left</dd>
+            <dt>toggle most recent groups</dt><dd>M-b</dd>
+        </dl>
+    </div>
+
+    <div class="flexcol">
+        <span class="title">Windows</span><dl>
+            <dt>focus next window</dt><dd>M-space<br/>A-Tab</dd>
+            <dt>focus prior window</dt><dd>M-S-space<br/>S-A-Tab</dd>
+            <dt>toggle fullscreen</dt><dd>M-f</dd>
+            <dt>toggle floating</dt><dd>M-t</dd>
+            <dt>enable floating</dt><dd>M-S-f</dd>
+            <dt>bring window to front</dt><dd>M-`</dd>
+            <dt>flip: toggle split/unsplit<br/>
+            sides of stack (xmonadtall)</dt><dd>M-/</dd>
+            <dt>rotate (stack)</dt><dd>M-/</dd>
+        </dl>
+    </div>
+
+
+    <div class="flexcol">
+        <span class="title">stacked layouts</span> <dl>
+            <dt>focus down</dt><dd>M-j</dd>
+            <dt>focus up</dt><dd>M-k</dd>
+            <dt>focus left</dt><dd>M-h</dd>
+            <dt>focus right</dt><dd>M-l</dd>
+            <dt>shuffle up</dt><dd>M-S-k</dd>
+            <dt>shuffle down</dt><dd>M-S-j</dd>
+            <dt>move right/next</dt><dd>M-Next</dd>
+            <dt>move left/previous</dt><dd>M-Prior</dd>
+            <dt>move to main</dt><dd>M-Home</dd>
+        </dl>
+    </div>
+
+    <div class="flexcol">
+        <span class="title">changing window sizes</span> <dl>
+            <dt>grow current window</dt><dd>M-u</dd>
+            <dt>shrink current window</dt><dd>M-,</dd>
+            <dt>normalize sizes (default ratios)</dt><dd>M-n</dd>
+            <dt>maximize current window</dt><dd>M-o</dd>
+            <dt>decrease ratio of current window</dt><dd>M-=</dd>
+            <dt>increase ratio of current window</dt><dd>M-+</dd>
+        </dl>
+    </div>
+
+    <div class="flexcol">
+        <span class="title">qtile</span> <dl>
+            <dt>restart</dt><dd>M-C-r</dd>
+            <dt>quit</dt><dd>M-C-q</dd>
+        </dl>
+    </div>
+
+    <div class="flexcol">
+        <span class="title">dunst</span><dl>
+            <dt>redisplay messages</dt><dd>C-`</dd>
+            <dt>close notification</dt><dd>C-space</dd>
+            <dt>close all notifications</dt><dd>C-S-space</dd>
+            <dt>show context menu</dt><dd>C-S-.</dd>
+        </dl>
+    </div>
+    </body>
+    </html>
