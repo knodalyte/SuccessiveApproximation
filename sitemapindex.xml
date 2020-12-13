@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>https://knodalyte.github.io/SuccessiveApproximation/authors/craig-allen.xml</loc>
-  <lastmod>2020-12-13T20:07:00Z</lastmod>
+  <lastmod>2020-12-13T20:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://knodalyte.github.io/SuccessiveApproximation/authors/roberto-alsina.xml</loc>
@@ -27,7 +27,7 @@
  </sitemap>
  <sitemap>
   <loc>https://knodalyte.github.io/SuccessiveApproximation/categories/linux.xml</loc>
-  <lastmod>2020-12-13T17:59:00Z</lastmod>
+  <lastmod>2020-12-13T20:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://knodalyte.github.io/SuccessiveApproximation/categories/nikola.xml</loc>
@@ -59,10 +59,10 @@
  </sitemap>
  <sitemap>
   <loc>https://knodalyte.github.io/SuccessiveApproximation/rss.xml</loc>
-  <lastmod>2020-12-13T20:07:00Z</lastmod>
+  <lastmod>2020-12-13T20:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://knodalyte.github.io/SuccessiveApproximation/sitemap.xml</loc>
-  <lastmod>2020-12-13T20:07:00Z</lastmod>
+  <lastmod>2020-12-13T21:41:00Z</lastmod>
  </sitemap>
 </sitemapindex>
