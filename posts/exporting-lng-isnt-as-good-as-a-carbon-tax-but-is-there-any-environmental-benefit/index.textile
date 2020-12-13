@@ -1,0 +1,26 @@
+<notextile>  <!--
+.. title: Exporting LNG isn't as good as a carbon tax, but is there any environmental benefit?
+.. slug: exporting-lng-isnt-as-good-as-a-carbon-tax-but-is-there-any-environmental-benefit
+.. date: 2014-03-10 13:36:59 UTC-04:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+.. author: Craig Allen
+--></notextile>
+
+Various senators and representatives are seeking to fast-track exports of the American bounty of natural gas to some of our trade partners (in Eastern Europe, primarily) as a foil to Russian heavy-handed tactics in Ukraine.  In fact, there is competition to see who gets their version of "natural gas diplomacy" adopted.
+
+Currently our improving supply of natural gas, which has increased largely by the practice of fracking - with consequences that are deferred to the future - is helping to keep home heating, electrical generation, and industrial costs down.  Economics tells us that increasing the demand for a product is likely to increase the price of the product, and I don't see why this relationship should not apply to natural gas prices.
+
+<!-- TEASER_END -->
+It will take years before exports of liquified natural gas (LNG) can be ramped up to make a significant impact on domestic energy prices.  Incidentally, the crisis in Ukraine will likely be long forgotten, but the opportunity for increased profits by the natural gas industry will still be available.  Meanwhile, efforts like energy conservation could yield more immediate but only partial relief to Eastern Europeans that are beholden to the Russians for natural gas.
+
+If and when LNG export start to impact the supply - and therefore the price - of natural gas in the U.S., we will start to see some of the same kind of benefits that a carbon tax would have: encouraging investments that improve energy efficiency.  That would be a benefit, but it would not have the side benefit of making carbon tax revenues available to offset increased costs.  Carbon tax revenues could be channeled to taxpayers, particularly low income consumers who are hit the hardest when energy costs increase.  Alternatively, carbon tax revenues could be used to subsidize investments in improving energy efficiency or worthy alternative energy sources like "liquid fluoride thorium reactor":https://en.wikipedia.org/wiki/Liquid_fluoride_thorium_reactor (LFTR) factories.  But that's a topic for another post (or several).
+
+And of course, increasing LNG exports - which means increasing the consumption of carbon fuel globally - both enriches the natural gas industry and worsens carbon emissions.
+
+An American carbon tax makes so much more sense - and isn't it just a chargeback for some of the externalities of the Western high consumption lifestyle?
+
+

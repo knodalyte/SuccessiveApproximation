@@ -1,0 +1,4 @@
+Sitemap: https://knodalyte.github.io/SuccessiveApproximation/sitemapindex.xml
+
+User-Agent: *
+Host: knodalyte.github.io

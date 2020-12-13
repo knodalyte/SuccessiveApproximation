@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#
+" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Asking the right questions for a long time now">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Successive Approximation</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css" integrity="sha256-cLMYWYYutHkt+KpNqjg7NVkYSQ+E2VbrXsEvOqU7mL0=" crossorigin="anonymous">
+<link href="assets/css/all.css" rel="stylesheet" type="text/css">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="rss.xml">
+<link rel="canonical" href="https://knodalyte.github.io/SuccessiveApproximation/">
+<!--[if lt IE 9]><script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]--><link rel="prefetch" href="posts/this-is-progress-not/" type="text/html">
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-expand-md static-top mb-4
+navbar-dark
+bg-dark
+"><div class="container">
+<!-- This keeps the margins nice -->
+        <a class="navbar-brand" href=".">
+
+            <span id="blog-title">Successive Approximation</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="bs-navbar">
+            <ul class="navbar-nav mr-auto">
+<li class="nav-item">
+<a href="archive.html" class="nav-link">Archive</a>
+                </li>
+<li class="nav-item">
+<a href="categories/" class="nav-link">Tags</a>
+                </li>
+<li class="nav-item">
+<a href="rss.xml" class="nav-link">RSS feed</a>
+                </li>
+<li class="nav-item">
+<a href="pages/about-me.html" class="nav-link">About me</a>
+
+                
+            </li>
+</ul>
+<ul class="navbar-nav navbar-right"></ul>
+</div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav><!-- End of Menubar --><div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        
+        
+        
+
+    
+
+
+    
+<div class="postindex">
+    <article class="h-entry post-micro" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/this-is-progress-not/" class="u-url">This is progress?</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                <a href="authors/craig-allen/">Craig Allen</a>
+            </span></p>
+            <p class="dateline">
+            <a href="posts/this-is-progress-not/" rel="bookmark">
+            <time class="published dt-published" datetime="2018-10-26T07:58:09-04:00" itemprop="datePublished" title="2018-10-26 07:58">2018-10-26 07:58</time></a>
+            </p>
+        </div>
+    </header><div class="p-summary entry-summary">
+    <div>
+<p>In a sprawling double page advertisement in a New York Times Special Report section about Artificial Intelligence, Audi posited that <em>Progress is redefining luxury</em>. I suppose if you are appealing to the 1% who are the target market for your top-of-the-line A8 model (starts in the mid 80s in the US), then you want to encourage your audience to think that they are advancing civilization by buying their automobile.</p>
+<p>... struggling to think of the inverse of "Let them eat cake"</p>
+</div>
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/kafka-adventures/" class="u-url">Adventures with Kafka</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                <a href="authors/craig-allen/">Craig Allen</a>
+            </span></p>
+            <p class="dateline">
+            <a href="posts/kafka-adventures/" rel="bookmark">
+            <time class="published dt-published" datetime="2018-10-24T16:14:00Z" itemprop="datePublished" title="2018-10-24 16:14">2018-10-24 16:14</time></a>
+            </p>
+        </div>
+    </header><div class="p-summary entry-summary">
+    <div>
+<h2>Kafka Streaming Evaluation</h2>
+<h4>Part 1: Near Real-Time Environment Monitoring</h4>
+<p>We started looking at the Kafka Streaming Platform as we explored options for monitoring our upcoming enterprise management applications. The consulting company that was implementing the enterprise solution was not providing any monitoring capabilies (and in fact did not implement logging in any consistent way). It fell to us, me in particular, to explore possible ways to be able to monitor the environment. After some initial exploration of how other enterprises were solving these kinds of problems, we decided to evaluate streaming as provided by Kafka for a proof-of-concept monitoring application. Our server teams gave me 3 VMs and sudo, and I installed and configured the various components of the Kafka platform.</p>
+<p>The specific problem that we wanted to address was that QA and business people were testing various components of the enterprise environment but encountering performance issues. Testers could not easily determine whether they were seeing a problem with the implementation of their use case, a problem with the server they were connecting to, or a problem with a connected component elsewhere in the environment. Almost all of the systems were hosted on components of the Oracle enterprise stack, and the systems were being monitored by Oracle Enterprise Manager (OEM), but OEM is not a tool for users. However, OEM can be configured to send SNMP traps to an address, and we decided to leverage SNMP to provide simple but timely component status to the tester community.</p>
+<p>The first challenge was to get data from the SNMP traps into a Kafka stream. I had to learn a bit about SNMP, its versions, and how to interpret the data. I needed to develop a microservice that would listen to incoming SNMP traps, extract the relevant data, and publish events to a stream. A Java SNMP connector on Github looked promising, but it required SNMP V2 and OEM only supported V1 and V3. I found a Python library, PySNMP, that allowed me to listen for SNMP traps from OEM and also grab some data from them to publish to my snmp-traps stream as JSON.</p>
+<p>Next, I wrote a simple Python service to consume what was essentially raw SNMP trap data and extract the handful of values that I cared about, and publish to an alert stream, again as JSON.</p>
+<p>The final piece was the most challenging: presenting an up to the minute summary of environment status in a web page. I was dealing with 11 tiers, 4 main server types, and over 50 individual servers for which to display the latest status and trend. The display needed to be updated in realtime with no user interaction, primarily for display on a kiosk monitor. I knew I wanted to use the WebSocket protocol, but I didn't know how. I couldn't use Server-sent Events (SSE) because I also needed to support IE on user desktops.</p>
+<p>I found a very interesting Python networking platform designed for distributed messaging applications, Crossbar.io. Crossbar supports the WebSocket protocol, includes asynchronous servers, and has numerous sample applications including a demo network event monitoring daemon written in Python for the server side and React on the client side. While the example app was the authors' first Crossbar.io app and their first React.js app (and mine, as well), it nevertheless provided enough scaffolding that I could adapt for my needs. I implemented a Kafka consumer component in the server app that would listen for alert events from the alert stream. My primary need could most quickly be met by maintaining state and generating the core UI on the server side, so I used React in only the most rudimentary way. The application built and persisted a matrix of server status and history, and each time an alert event arrived, the matrix was updated. In addition, an HTML grid component was updated and pushed through the WebSocket connection to each connected browser client, where React handled the page updates.</p>
+<p>The overall application performed well and was very robust. It had at least two main issues: history persisted and reported on servers that had been retired (deleting the persisted data structure was the manual workaround); and connecting a new browser client did not trigger a full refresh of the status grid, only an new SNMP event accomplished this.</p>
+<h4>Part 2: ETL</h4>
+<p>Subsequent to our monitoring POC, my company shifted direction and walked away from the never-completed enterprise application stack that a rather well-known consulting company had been developing for us. At that point, we realized that implementing "Plan B" required us to implement an application integration platform. Kafka seemed like a good candidate solution (along with others) and we started a second phase of evaluation. For this work, our server team built and configured a small cluster of Kafka platform servers using Chef. Our first target was testing some data conversion and integration activities that required some data transformations.</p>
+<p>It seemed to me that what we were trying to do matched some of the use cases for the emerging (at the time, it was in beta) KSQL component of the Kafka platform. I was able to configure a Kafka Connect instance to read data from a database and publish it to a stream in Avro format. This provided a basis for experimenting with some of the functions supported by KSQL. However, I was unable to get more than one transformation function working at a time when creating a new, transformed stream from an existing stream. I then tried using the Kafka Streams Java library and attempted to do some stream joins. This seemed to work but sometimes I ended up with duplicate data in the output streams. Later I discovered that the method I was using to truncate my input streams between tests did not actually purge the data and it was duplicate input that resulted in duplicates in the output.</p>
+<p>After a couple of disappointing experiments, I reverted to the tried-and-true approach of creating Python programs to perform transformations from one stream into another. This worked just fine, was easy to implement and fast to execute, but was not an approach that could easily be adopted by our business analysts (in the case of KSQL) or our Java developers (in the case of Kafka Streams).</p>
+<h4>Part 3: Speed Test</h4>
+<p>As the final part of our integration platform evaluation, we wanted to compare performance when running data integration or conversion processing. We're not talking huge volumes here, the worst case conversion scenario is less than 60 million records. For our speed test comparison, we essentially copied 1.7 rows from a DB2 table on our AS/400 into a table in Oracle. No transformations were performed, but column names were slightly different in DB2 (due to limits on the length of a column name). We compared Kafka, Oracle Data Integrator (ODI), MuleSoft, and Microsoft's SSIS tool. I configured Kafka Connect source and sink JDBC connectors and deployed one of each to servers (not part of our Kafka cluster). Each product test was run separately so that there would not be contention.</p>
+<p>As I expected, Kafka was the fastest, tranfering the data in 6 minutes. ODI and Mule each clocked in at about 7 minutes, and SSIS came in at 10 minutes. In a subsequent run, I deployed 3 Connect sink workers, each on a separate server, and after I started the Connect source worker, the transfer completed in about 4 minutes.</p>
+<h4>Conclusion</h4>
+<p>Despite the performance, versatility, scalability, and price (we were using the OSS Confluent package) advantages of Kafka, management decided that MuleSoft was the best solution for our organization.</p>
+<p>However, I had a lot of fun learning about and experimenting with Kafka, and I'm sorry we will not be using it in the future. I think it is an excellent and exciting way of implementing systems.</p>
+</div>
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/adopting-qtile/" class="u-url">Adopting Qtile</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                <a href="authors/craig-allen/">Craig Allen</a>
+            </span></p>
+            <p class="dateline">
+            <a href="posts/adopting-qtile/" rel="bookmark">
+            <time class="published dt-published" datetime="2015-03-13T08:45:42-04:00" itemprop="datePublished" title="2015-03-13 08:45">2015-03-13 08:45</time></a>
+            </p>
+        </div>
+    </header><div class="p-summary entry-summary">
+    <div>
+<p><a href="http://qtile.org/">Qtile</a> is a <a href="https://en.wikipedia.org/wiki/Tiling_window_manager">tiling window manager</a> written in <a href="http://python.org/">Python</a> for the X Window System (that means Linux and other *nixes).  It's been around for a while, and I've tried on several occasions to use it.  Recently, I (and Qtile) made enough progress that it's reliable and efficient to use as my daily driver.
+<a href="images/DSCF0136.JPG" class="image-reference"><img src="images/DSCF0136.thumbnail.JPG" alt="OK, they're shingles, not tiles" class=" align-right"></a></p>
+<p>You can watch a short and droll video about Qtile from 2011 on <a href="http://www.youtube.com/watch?v=r_8om4dsEmw">YouTube</a></p>
+<p>Despite its name, Qtile has nothing to do with Qt nor KDE, in fact like most tiling window managers, it replaces a desktop environment.  I was an XFCE user for many years, and more recently made extended trials of KDE and Gnome.  Gnome ran pretty well on my middle-aged Thinkpad, but I found myself needing to use the mouse a bit more than I wanted to, especially because I was trying to use the trackpad instead of toting around a mouse.  </p>
+<p>Qtile has enabled me to do virtually all my window management using the keyboard with a minimum of effort.  Because I can (when I want) dispense with any chrome or even a bar, Qtile lets me make most efficient use of my limited number of pixels (1368x768).  I tend to be a windows-maximized-all-the-time kind of person, and of course that is easy to work in with Qtile.  When I need to switch to side-by-side or tiled windows, it's just a keyboard shortcut away.</p>
+<p class="more"><a href="posts/adopting-qtile/">Read more…</a></p>
+</div>
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/comments-on-quebec/" class="u-url">Comments on Quebec</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                <a href="authors/craig-allen/">Craig Allen</a>
+            </span></p>
+            <p class="dateline">
+            <a href="posts/comments-on-quebec/" rel="bookmark">
+            <time class="published dt-published" datetime="2014-08-28T10:23:38-04:00" itemprop="datePublished" title="2014-08-28 10:23">2014-08-28 10:23</time></a>
+            </p>
+        </div>
+    </header><div class="p-summary entry-summary">
+    <div>
+<p>Having recently returned from a short vacation in Montreal and Quebec, I noticed a few things I wanted to comment about.</p>
+
+	<p>It seems that Montreal is much more French than my last visit about 15 years ago.  Signs seldom have an English version, and when they do, the English is often a shortened version and sometimes in a smaller or low contrast font.  On the other hand – and maybe this is a consequence of traveling with children on this latest trip – spoken English seemed to be uniformly tolerated without any of the attitude I had noticed in a previous visit.</p>
+
+	<p>In a couple of ways, technology is more sophisticated in Canada than in any city I have visited in the US recently.  In Canada, use of the wireless credit card terminals in restaurants and shops seems universal, but I have yet to see them in the US.  And of course these terminals work with smart credit cards with the embedded chip that the rest of the world has migrated to.</p>
+
+	<p>Parking meters are more sophisticated in Quebec (and probably Montreal, but we didn’t park on the street there) than in my limited circuit of American cities.  Every parking spot is marked with a number, and every block seems to have a parking payment kiosk.  At the kiosk, you enter the number, select how much you want to pay for time, and then either insert coins (no dollar bills in Canadian currency, only one and two dollar coins) or a credit card, and when you complete the transaction, a slip of paper emerges with your expiration time and the parking spot number.  So not only do you have a note of when your time expires, but you can add more time to an expired spot at any payment kiosk (in your sector, whatever that means), no need to go back to where your car is parked.  This system is called Pay and Go, and I wish we had it where I live.  The payment stations are wireless and solar powered!  And there are smartphone apps (at least for Montreal) and a web UI that you can pay with (and the apps remind you to pay)!</p>
+</div>
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/exporting-lng-isnt-as-good-as-a-carbon-tax-but-is-there-any-environmental-benefit/" class="u-url">Exporting LNG isn't as good as a carbon tax, but is there any environmental benefit?</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                <a href="authors/craig-allen/">Craig Allen</a>
+            </span></p>
+            <p class="dateline">
+            <a href="posts/exporting-lng-isnt-as-good-as-a-carbon-tax-but-is-there-any-environmental-benefit/" rel="bookmark">
+            <time class="published dt-published" datetime="2014-03-10T13:36:59-04:00" itemprop="datePublished" title="2014-03-10 13:36">2014-03-10 13:36</time></a>
+            </p>
+        </div>
+    </header><div class="p-summary entry-summary">
+    <div>
+<p>Various senators and representatives are seeking to fast-track exports of the American bounty of natural gas to some of our trade partners (in Eastern Europe, primarily) as a foil to Russian heavy-handed tactics in Ukraine.  In fact, there is competition to see who gets their version of “natural gas diplomacy” adopted.</p>
+
+	<p>Currently our improving supply of natural gas, which has increased largely by the practice of fracking – with consequences that are deferred to the future – is helping to keep home heating, electrical generation, and industrial costs down.  Economics tells us that increasing the demand for a product is likely to increase the price of the product, and I don’t see why this relationship should not apply to natural gas prices.</p>
+
+	<p></p>
+<p class="more"><a href="posts/exporting-lng-isnt-as-good-as-a-carbon-tax-but-is-there-any-environmental-benefit/">Read more…</a></p>
+</div>
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/welcome-to-nikola/" class="u-url">Welcome to Nikola</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                <a href="authors/roberto-alsina/">Roberto Alsina</a>
+            </span></p>
+            <p class="dateline">
+            <a href="posts/welcome-to-nikola/" rel="bookmark">
+            <time class="published dt-published" datetime="2012-03-30T23:00:00-03:00" itemprop="datePublished" title="2012-03-30 23:00">2012-03-30 23:00</time></a>
+            </p>
+        </div>
+    </header><div class="p-summary entry-summary">
+    <div>
+<div class="figure">
+<a class="reference external image-reference" href="https://farm1.staticflickr.com/138/352972944_4f9d568680_z.jpg?zz=1"><img alt="Nikola Tesla Corner by nicwest, on Flickr" class="thumbnail" src="https://farm1.staticflickr.com/138/352972944_4f9d568680.jpg"></a>
+</div>
+<p>If you can see this in a web browser, it means you managed to install Nikola,
+and build a site using it. Congratulations!</p>
+<p>Next steps:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="pages/handbook/">Read the manual</a></p></li>
+<li><p><a class="reference external" href="https://getnikola.com">Visit the Nikola website to learn more</a></p></li>
+<li><p><a class="reference external" href="galleries/demo/">See a demo photo gallery</a></p></li>
+<li><p><a class="reference external" href="pages/listings-demo/">See a demo listing</a></p></li>
+<li><p><a class="reference external" href="pages/dr-nikolas-vendetta/">See a demo of a longer text</a></p></li>
+</ul>
+<p>Send feedback to <a class="reference external" href="mailto:info@getnikola.com">info@getnikola.com</a>!</p>
+</div>
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/furnishing-the-cubicle/" class="u-url">Furnishing the Cubicle </a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                <a href="authors/craig-allen/">Craig Allen</a>
+            </span></p>
+            <p class="dateline">
+            <a href="posts/furnishing-the-cubicle/" rel="bookmark">
+            <time class="published dt-published" datetime="2011-11-29T13:09:03-05:00" itemprop="datePublished" title="2011-11-29 13:09">2011-11-29 13:09</time></a>
+            </p>
+        </div>
+    </header><div class="p-summary entry-summary">
+    <div>
+<p class="reader-comment">In which I extrapolate from a sample size of 1 to the general prediction that the denizens of the cube farm are about to embark in a wave of workplace embellishment - at their own expense.</p>
+
+<p>My journey into buying my own equipment for my cube at my workplace started small enough: a mouse.  Actually, it was a replacement for a mouse; I was using the mouse so much that by the end of the day, my shoulder was very tight.  My solution was to buy a <a href="http://www.logitech.com/en-us/mice-pointers/trackballs/devices/cordless-trackMan-optical">trackball</a>, bring it in, and use it instead of the mouse.</p>
+<p>Could I have requested that the IT department buy me a trackball?  Sure, I could have asked, but I doubt they would have done it.  So I bought my own: the start of a long progression.</p>
+<p class="more"><a href="posts/furnishing-the-cubicle/">Read more…</a></p>
+</div>
+    </div>
+    </article>
+</div>
+
+
+
+
+
+
+
+        <!--End of body content-->
+
+        <footer id="footer">
+            Contents © 2020         <a href="mailto:cba@knodal.com">Craig Allen</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+            
+            
+        </footer>
+</div>
+</div>
+
+
+        <script src="http://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js" integrity="sha256-ULQV01VS9LCI2ePpLsmka+W0mawFpEA0rtxnezUj4A4=" crossorigin="anonymous"></script><script src="assets/js/all.js"></script><script>
+    baguetteBox.run('div#content', {
+        ignoreClass: 'islink',
+        captions: function(element){var i=element.getElementsByTagName('img')[0];return i===undefined?'':i.alt;}});
+    </script>
+</body>
+</html>
