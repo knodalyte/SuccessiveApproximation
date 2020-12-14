@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version='1.0'>
+<head>
+<title>Player FM Feeds from Knodalyte FM</title>
+<dateCreated>December 08, 2019 13:06</dateCreated>
+<dateModified>December 08, 2019 13:06</dateModified>
+</head>
+<body>
+<outline text="Planet Money" type="rss" xmlUrl="https://www.npr.org/rss/podcast.php?id=510289"  htmlUrl="https://www.npr.org/planetmoney" />
+<outline text="Science Friday" type="rss" xmlUrl="http://feeds.wnyc.org/science-friday/"  htmlUrl="https://www.wnycstudios.org/podcasts/science-friday" />
+<outline text="Cool Tools" type="rss" xmlUrl="http://feedpress.me/cooltoolsshow"  htmlUrl="http://cool-tools.org/" />
+<outline text="TED Talks Daily" type="rss" xmlUrl="http://feeds.feedburner.com/tedtalks_audio"  htmlUrl="https://www.ted.com/talks" />
+<outline text="The Fat-Burning Man Show by Abel James: The Future of Health &amp; Performance" type="rss" xmlUrl="http://fatburningman.com/feed/podcast/"  htmlUrl="http://fatburningman.com/read/" />
+<outline text="Software Engineering Daily" type="rss" xmlUrl="https://softwareengineeringdaily.com/feed/podcast/"  htmlUrl="https://softwareengineeringdaily.com/archives/" />
+<outline text="Innovation Hub" type="rss" xmlUrl="https://feeds.wgbh.org/106/feed-rss.xml"  htmlUrl="http://blogs.wgbh.org/innovation-hub/" />
+<outline text="Recode Decode" type="rss" xmlUrl="https://feeds.megaphone.fm/recodedecode"  htmlUrl="https://www.vox.com/recode-decode-podcast-kara-swisher" />
+<outline text="TED Radio Hour" type="rss" xmlUrl="https://www.npr.org/rss/podcast.php?id=510298"  htmlUrl="https://www.npr.org/programs/ted-radio-hour/" />
+<outline text="Pod Save America" type="rss" xmlUrl="http://feeds.feedburner.com/pod-save-america"  htmlUrl="https://crooked.com/" />
+<outline text="Bulletproof Radio" type="rss" xmlUrl="https://rss.art19.com/bulletproof-radio"  htmlUrl="https://blog.daveasprey.com/category/podcasts/" />
+<outline text="Health Quest Podcast with Steve Lankford" type="rss" xmlUrl="http://feeds.feedburner.com/healthquestpodcast"  htmlUrl="https://healthquestpodcast.com" />
+<outline text="In Our Time" type="rss" xmlUrl="https://podcasts.files.bbci.co.uk/b006qykl.rss"  htmlUrl="http://www.bbc.co.uk/programmes/b006qykl" />
+<outline text="Freakonomics Radio" type="rss" xmlUrl="https://rss.art19.com/freakonomics-radio"  htmlUrl="http://freakonomics.com/" />
+<outline text="Babbage from Economist Radio" type="rss" xmlUrl="https://rss.acast.com/theeconomistbabbage"  htmlUrl="https://www.economist.com/" />
+<outline text="Audio Dharma" type="rss" xmlUrl="http://feeds.feedburner.com/audiodharma"  htmlUrl="http://www.audiodharma.org/" />
+<outline text="LINUX Unplugged" type="rss" xmlUrl="https://feeds.fireside.fm/linuxunplugged/rss"  htmlUrl="https://linuxunplugged.com" />
+<outline text="Revolution Health Radio" type="rss" xmlUrl="https://chriskresser.com/feed/podcast"  htmlUrl="https://chriskresser.com" />
+<outline text="a16z Podcast" type="rss" xmlUrl="https://feeds.simplecast.com/JGE3yC0V"  htmlUrl="https://www.a16z.com" />
+<outline text="The Python Podcast.__init__" type="rss" xmlUrl="https://www.podcastinit.com/feed/mp3/"  htmlUrl="https://www.pythonpodcast.com" />
+<outline text="Podcast – Cory Doctorow&#39;s craphound.com" type="rss" xmlUrl="http://feeds.feedburner.com/doctorow_podcast"  htmlUrl="https://craphound.com" />
+<outline text="Revisionist History" type="rss" xmlUrl="https://feeds.megaphone.fm/revisionisthistory"  htmlUrl="http://revisionisthistory.com/" />
+<outline text="This American Life" type="rss" xmlUrl="http://feed.thisamericanlife.org/talpodcast"  htmlUrl="https://www.thisamericanlife.org" />
+<outline text="The Panpsycast Philosophy Podcast" type="rss" xmlUrl="http://thepanpsycast.libsyn.com/rss"  htmlUrl="http://thepanpsycast.com/panpsycast2/" />
+<outline text="ThoughtWorks Podcast" type="rss" xmlUrl="https://thoughtworks.libsyn.com/rss"  htmlUrl="https://www.thoughtworks.com/podcasts" />
+<outline text="Radiolab" type="rss" xmlUrl="http://feeds.wnyc.org/radiolab"  htmlUrl="https://www.wnycstudios.org/podcasts/radiolab/projects/podcasts" />
+<outline text="Functional Geekery" type="rss" xmlUrl="https://www.functionalgeekery.com/feed/mp3/"  htmlUrl="https://www.functionalgeekery.com" />
+<outline text="Essentials of Healthy Living" type="rss" xmlUrl="http://p3nlhclust404.shr.prod.phx3.secureserver.net/SharedContent/redirect_0.html"  htmlUrl="http://www.myvillagegreen.com" />
+<outline text="Let&#39;s Argue About Plants" type="rss" xmlUrl="https://letsargueaboutplants.libsyn.com/rss"  htmlUrl="http://letsargueaboutplants.libsyn.com/website" />
+<outline text="Under The Skin with Russell Brand" type="rss" xmlUrl="https://feeds.megaphone.fm/LM1344278906"  htmlUrl="https://www.russellbrand.com/podcasts/" />
+<outline text="The After On Podcast" type="rss" xmlUrl="http://afteron.libsyn.com/rss"  htmlUrl="https://www.after-on.com" />
+<outline text="Anatomy of Next" type="rss" xmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:220400255/sounds.rss"  htmlUrl="http://foundersfund.com/" />
+<outline text="You&#39;re the Expert" type="rss" xmlUrl="http://feeds.feedburner.com/youretheexpert"  htmlUrl="http://youretheexpert.libsyn.com" />
+<outline text="RCast" type="rss" xmlUrl="https://www.rchain.coop/blog/feed/podcast"  htmlUrl="https://www.rchain.coop/blog/" />
+<outline text="The Wilderness" type="rss" xmlUrl="http://feeds.feedburner.com/the-wilderness"  htmlUrl="https://crooked.com/" />
+<outline text="Warrior Radio" type="rss" xmlUrl="https://www.warrior.do/"  htmlUrl="https://www.warrior.do" />
+<outline text="Smart Drug Smarts: Brain Optimization | Nootropics | Neuroscience" type="rss" xmlUrl="http://feeds.smartdrugsmarts.com/cgi-sys/suspendedpage.cgi"  htmlUrl="http://smartdrugsmarts.com" />
+<outline text="Gweek" type="rss" xmlUrl="http://feedpress.me/gweek"  htmlUrl="http://soundcloud.com/boing-boing" />
+<outline text="Hark: A RedMonk Podcast" type="rss" xmlUrl="http://harkpodcast.libsyn.com/rss"  htmlUrl="http://harkpodcast.libsyn.com/podcast" />
+</body>
+</opml>

@@ -143,7 +143,9 @@ NAVIGATION_LINKS = {
         ("/archive.html", "Archive"),
         ("/categories/", "Tags"),
         ("/rss.xml", "RSS feed"),
-        ('/pages/about-me.html', 'About me')
+        ("/fm.opml", "Podcasts I listen to"),
+        ("/feedlist-20201207.opml", "Feeds I read"),
+        # ('/pages/about-me.html', 'About me')
     ),
 }
 
@@ -155,12 +157,16 @@ NAVIGATION_ALT_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "bootstrap4"
+# THEME = "maupassant"
+
+THEME = "cba_executive_bootstrap4_theme"
+# "hyde"
+# THEME = "cba_flatley_bootblog4_theme"
 
 # A theme color. In default themes, it might be displayed by some browsers as
 # the browser UI color (eg. Chrome on Android). Other themes might also use it
 # as an accent color (the default ones don’t). Must be a HEX value.
-THEME_COLOR = '#5670d4'
+# THEME_COLOR = '#5670d4'
 
 # Theme configuration. Fully theme-dependent. (translatable)
 # Samples for bootblog4 (enabled) and bootstrap4 (commented) follow.
@@ -250,7 +256,6 @@ PAGES = (
 )
 
 
-THEME = "bootstrap4"
 # Below this point, everything is optional
 
 # Post's dates are considered in UTC by default, if you want to use
@@ -314,8 +319,8 @@ TIMEZONE = "America/New_York"
 # 'markdown' is Markdown
 # 'html' assumes the file is HTML and just copies it
 COMPILERS = {
-    "rest": ['.rst', '.txt'],
-    "markdown": ['.md', '.mdown', '.markdown'],
+    "rest": ['.rst'],
+    "markdown": ['.md', '.mdown', '.markdown', '.txt'],
     "textile": ['.textile'],
     "txt2tags": ['.t2t'],
     "bbcode": ['.bb'],
@@ -1239,7 +1244,7 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.c
 # Bootstrap is served from BootstrapCDN (provided by MaxCDN)
 # Set this to False if you want to host your site without requiring access to
 # external resources.
-USE_CDN = True
+# USE_CDN = True
 
 # Check for USE_CDN compatibility.
 # If you are using custom themes, have configured the CSS properly and are
@@ -1392,8 +1397,9 @@ WARN_ABOUT_TAG_METADATA = False
 
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
-GLOBAL_CONTEXT = {}
-
+GLOBAL_CONTEXT = {
+    "hyde_subtheme": "theme-base-0c"
+    }
 # Add functions here and they will be called with template
 # GLOBAL_CONTEXT as parameter when the template is about to be
 # rendered

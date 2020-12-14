@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+	<head>
+		<title>Feeds OPML Export</title>
+		<dateCreated>Mon Dec 07 2020 14:58:31 GMT-0500 (Eastern Standard Time)</dateCreated>
+	</head>
+	<body>
+		<outline text="Patterns of Meaning" type="rss" version="RSS" htmlUrl="https://patternsofmeaning.com/" xmlUrl="https://patternsofmeaning.com/feed/"/>
+		<outline text="naked capitalism" type="rss" version="RSS" htmlUrl="https://www.nakedcapitalism.com/" xmlUrl="https://www.nakedcapitalism.com/feed"/>
+		<outline text="oftwominds-Charles Hugh Smith" type="rss" version="RSS" htmlUrl="http://charleshughsmith.blogspot.com/" xmlUrl="https://charleshughsmith.blogspot.com/feeds/posts/default?alt=rss"/>
+		<outline text="Blog - The Climate Mobilization" type="rss" version="RSS" htmlUrl="https://www.theclimatemobilization.org/blog/" xmlUrl="https://www.theclimatemobilization.org/blog?format=RSS"/>
+		<outline text="Evonomics" type="rss" version="RSS" htmlUrl="https://evonomics.com/" xmlUrl="https://evonomics.com/feed/"/>
+		<outline text="The Outline" type="rss" version="RSS" htmlUrl="https://theoutline.com/" xmlUrl="https://theoutline.com/feeds/recent.rss"/>
+		<outline text="The Evolution Institute" type="rss" version="RSS" htmlUrl="https://thisviewoflife.com/" xmlUrl="https://evolution-institute.org/feed/"/>
+		<outline text="350.org" type="rss" version="RSS" htmlUrl="https://350.org/" xmlUrl="https://350.org/feed/"/>
+		<outline text="Resilience" type="rss" version="RSS" htmlUrl="https://www.resilience.org/" xmlUrl="https://www.resilience.org/feed/"/>
+		<outline text="The Baffler" type="rss" version="RSS" htmlUrl="https://thebaffler.com/" xmlUrl="https://thebaffler.com/feed"/>
+		<outline text="Resource Insights" type="rss" version="RSS" htmlUrl="http://resourceinsights.blogspot.com/" xmlUrl="https://resourceinsights.blogspot.com/feeds/posts/default?alt=rss"/>
+		<outline text="Nautilus" type="rss" version="RSS" htmlUrl="http://nautil.us/rss/all" xmlUrl="http://nautil.us/rss/all"/>
+		<outline text="The Mala Market | Inspiration &amp; Ingredients for Sichuan Cooking" type="rss" version="RSS" htmlUrl="https://blog.themalamarket.com/" xmlUrl="https://blog.themalamarket.com/feed/"/>
+		<outline text="Roads &amp; Kingdoms" type="rss" version="RSS" htmlUrl="https://roadsandkingdoms.com/" xmlUrl="https://roadsandkingdoms.com/feed/"/>
+		<outline text="" type="rss" version="RSS" htmlUrl="" xmlUrl="http://chopsticksandmarrow.com/feed/"/>
+		<outline text="Smart Drug Smarts: Brain Optimization | Nootropics | Neuroscience" type="rss" version="RSS" htmlUrl="http://smartdrugsmarts.com/" xmlUrl="http://feeds.smartdrugsmarts.com/podcast/sds.xml"/>
+		<outline text="Boing Boing" type="rss" version="RSS" htmlUrl="https://boingboing.net/" xmlUrl="https://boingboing.net/feed"/>
+		<outline text="New Economic Perspectives" type="rss" version="RSS" htmlUrl="http://neweconomicperspectives.org/" xmlUrl="http://neweconomicperspectives.org/feed"/>
+		<outline text="What Is Modern Monetary Theory, or &quot;MMT&quot;? – Truthout" type="rss" version="RSS" htmlUrl="https://truthout.org/" xmlUrl="https://truthout.org/articles/what-is-modern-monetary-theory-or-mmt/feed/?withoutcomments=1"/>
+		<outline text="Truthout" type="rss" version="RSS" htmlUrl="https://truthout.org/" xmlUrl="https://truthout.org/feed/?withoutcomments=1"/>
+		<outline text="QOwnNotes release versions" type="rss" version="RSS" htmlUrl="https://www.qownnotes.org/" xmlUrl="http://feeds.feedburner.com/QOwnNotesReleases"/>
+		<outline text="Mike Norman Economics" type="rss" version="RSS" htmlUrl="http://mikenormaneconomics.blogspot.com/" xmlUrl="https://mikenormaneconomics.blogspot.com/feeds/posts/default?alt=rss"/>
+		<outline text="EcoCiv Podcast" type="rss" version="RSS" htmlUrl="https://ecociv.org/" xmlUrl="https://www.ecociv.org/feed/podcast"/>
+		<outline text="Gregor Santner - Android, Linux &amp; Open Source blog" type="rss" version="RSS" htmlUrl="https://gsantner.net/" xmlUrl="https://gsantner.net/atom.xml"/>
+		<outline text="The Big Picture" type="rss" version="RSS" htmlUrl="https://ritholtz.com/" xmlUrl="http://ritholtz.com/feed/"/>
+		<outline text="The Center of the Universe" type="rss" version="RSS" htmlUrl="http://moslereconomics.com/" xmlUrl="http://moslereconomics.com/feed/"/>
+		<outline text="Health Care Renewal" type="rss" version="RSS" htmlUrl="https://hcrenewal.blogspot.com/" xmlUrl="https://hcrenewal.blogspot.com/feeds/posts/default?alt=rss"/>
+		<outline text="Cory Doctorow&apos;s craphound.com" type="rss" version="RSS" htmlUrl="https://craphound.com/" xmlUrl="https://craphound.com/feed"/>
+		<outline text="Thomas Palley" type="rss" version="RSS" htmlUrl="http://thomaspalley.com/" xmlUrl="http://thomaspalley.com/?feed=rss2"/>
+		<outline text="Independent Media Institute" type="rss" version="RSS" htmlUrl="https://independentmediainstitute.org/" xmlUrl="https://independentmediainstitute.org/feed/"/>
+		<outline text="Moon of Alabama" type="rss" version="RSS" htmlUrl="https://www.moonofalabama.org/" xmlUrl="https://www.moonofalabama.org/atom.xml"/>
+		<outline text="Socialist Economist" type="rss" version="RSS" htmlUrl="http://www.socialisteconomist.com/" xmlUrl="http://www.socialisteconomist.com/feeds/posts/default"/>
+		<outline text="Notes on the Crises" type="rss" version="RSS" htmlUrl="https://nathantankus.substack.com/" xmlUrl="https://nathantankus.substack.com/feed/"/>
+		<outline text="JustCare" type="rss" version="RSS" htmlUrl="https://justcareusa.org/" xmlUrl="https://justcareusa.org/feed/"/>
+		<outline text="The National Memo" type="rss" version="RSS" htmlUrl="https://www.nationalmemo.com/" xmlUrl="https://www.nationalmemo.com/feed/"/>
+		<outline text="Ha-Joon Chang" type="rss" version="RSS" htmlUrl="https://hajoonchang.net/" xmlUrl="http://hajoonchang.net/feed/"/>
+		<outline text="Progressive Graffiti" type="rss" version="RSS" htmlUrl="https://joannchateau.com/" xmlUrl="https://joannchateau.com/feed/"/>
+		<outline text="Jacobin" type="rss" version="RSS" htmlUrl="" xmlUrl="https://jacobinmag.com/feed/"/>
+		<outline text="Home - Democracy at Work" type="rss" version="RSS" htmlUrl="http://www.democracyatwork.info/" xmlUrl="http://www.democracyatwork.info/home.rss"/>
+		<outline text="Grist" type="rss" version="RSS" htmlUrl="https://grist.org/" xmlUrl="https://grist.org/feed/"/>
+		<outline text="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://www.thenation.com/feed/"/>
+		<outline text="" type="rss" version="RSS" htmlUrl="https://babyboomerresistancehome.wpcomstaging.com/" xmlUrl="https://babyboomerresistancehome.wpcomstaging.com/feed/"/>
+		<outline text="Politics – FiveThirtyEight" type="rss" version="RSS" htmlUrl="https://fivethirtyeight.com/" xmlUrl="https://fivethirtyeight.com/politics/feed/"/>
+		<outline text="Mother Jones" type="rss" version="RSS" htmlUrl="https://www.motherjones.com/" xmlUrl="https://www.motherjones.com/feed/"/>
+		<outline text="Daily Kos" type="rss" version="RSS" htmlUrl="http://www.dailykos.com/blogs/main" xmlUrl="http://www.dailykos.com/blogs/main.rss"/>
+		<outline text="ThinkProgress" type="rss" version="RSS" htmlUrl="https://thinkprogress.org/" xmlUrl="https://archive.thinkprogress.org/links/feed.xml"/>
+		<outline text="Robert Reich" type="rss" version="RSS" htmlUrl="https://robertreich.org/" xmlUrl="https://robertreich.org/rss"/>
+		<outline text="Jim Hightower" type="rss" version="RSS" htmlUrl="https://jimhightower.com/" xmlUrl="https://jimhightower.com/feed/"/>
+		<outline text="CounterPunch.org" type="rss" version="RSS" htmlUrl="https://www.counterpunch.org/" xmlUrl="https://www.counterpunch.org/feed/"/>
+		<outline text="The Atlantic" type="rss" version="RSS" htmlUrl="https://www.theatlantic.com/" xmlUrl="https://www.theatlantic.com/feed/all/"/>
+		<outline text="How Do You Like It So Far?" type="rss" version="RSS" htmlUrl="https://www.howdoyoulikeitsofar.org/" xmlUrl="https://www.howdoyoulikeitsofar.org/feed/"/>
+		<outline text="The Daily Ant" type="rss" version="RSS" htmlUrl="https://dailyant.com/" xmlUrl="https://dailyant.com/feed/"/>
+		<outline text="wallabag — all feed" type="rss" version="RSS" htmlUrl="https://app.wallabag.it/all/list" xmlUrl="https://app.wallabag.it/feed/knodalyte/uFd9FbXZNmACHJ6/all"/>
+		<outline text="Caitlin Johnstone" type="rss" version="RSS" htmlUrl="https://caitlinjohnstone.com/" xmlUrl="https://caitlinjohnstone.com/feed/"/>
+		<outline text="Pluralistic: Daily links from Cory Doctorow" type="rss" version="RSS" htmlUrl="https://pluralistic.net/" xmlUrl="https://pluralistic.net/feed/"/>
+		<outline text="Mariana Mazzucato" type="rss" version="RSS" htmlUrl="https://marianamazzucato.com/" xmlUrl="https://marianamazzucato.com/feed/"/>
+		<outline text="Reasons to be Cheerful" type="rss" version="RSS" htmlUrl="https://reasonstobecheerful.world/" xmlUrl="https://reasonstobecheerful.world/feed/"/>
+		<outline text="Consortium News" type="rss" version="RSS" htmlUrl="" xmlUrl="https://consortiumnews.com/feed/"/>
+		<outline text="TomDispatch - Blog" type="rss" version="RSS" htmlUrl="http://tomdispatch.com/" xmlUrl="https://feeds2.feedburner.com/tomdispatch/esUU"/>
+		<outline text="Release notes from qtile" type="rss" version="RSS" htmlUrl="https://github.com/qtile/qtile/releases" xmlUrl="https://github.com/qtile/qtile/releases.atom"/>
+		<outline text="Data &amp;amp; Society: Points - Medium" type="rss" version="RSS" htmlUrl="https://points.datasociety.net/?source=rss----2488f66d2e39---4" xmlUrl="https://points.datasociety.net/feed"/>
+		<outline text="blob blob" type="rss" version="RSS" htmlUrl="https://www.bblloobb.com/" xmlUrl="https://www.bblloobb.com/feed/"/>
+		<outline text="Comments on: Healthy living" type="rss" version="RSS" htmlUrl="https://crookedtimber.org/2020/06/21/healthy-living/" xmlUrl="https://crookedtimber.org/2020/06/21/healthy-living/feed/"/>
+		<outline text="Crooked Timber" type="rss" version="RSS" htmlUrl="https://crookedtimber.org/" xmlUrl="https://crookedtimber.org/feed/"/>
+		<outline text="Alta Online" type="rss" version="RSS" htmlUrl="https://altaonline.com/" xmlUrl="https://altaonline.com/feed/"/>
+		<outline text="The Climate Mobilization" type="rss" version="RSS" htmlUrl="https://www.theclimatemobilization.org/" xmlUrl="https://www.theclimatemobilization.org/feed/"/>
+		<outline text="TAP : The American Prospect" type="rss" version="RSS" htmlUrl="https://prospect.org/api/rss/content.rss" xmlUrl="https://prospect.org/api/rss/content.rss"/>
+		<outline text="TripleCrisis" type="rss" version="RSS" htmlUrl="http://triplecrisis.com/" xmlUrl="http://triplecrisis.com/feed/"/>
+		<outline text="scoop.me" type="rss" version="RSS" htmlUrl="https://scoop.me/" xmlUrl="https://scoop.me/feed/"/>
+		<outline text="The Beaverton" type="rss" version="RSS" htmlUrl="https://www.thebeaverton.com/" xmlUrl="https://www.thebeaverton.com/feed/"/>
+		<outline text="Tribune of the People" type="rss" version="RSS" htmlUrl="https://tribuneofthepeople.news/" xmlUrl="https://tribuneofthepeople.news/feed/"/>
+		<outline text="Washington Monthly" type="rss" version="RSS" htmlUrl="https://washingtonmonthly.com/" xmlUrl="https://washingtonmonthly.com/feed/"/>
+		<outline text="Center for Economic and Policy Research" type="rss" version="RSS" htmlUrl="https://cepr.net/" xmlUrl="https://cepr.net/feed/"/>
+		<outline text="Wowbrary: Latest Science Fiction &amp; Fantasy Books in the Waltham Public Library" type="rss" version="RSS" htmlUrl="http://wowbrary.org/nu.aspx?p=597--SFF" xmlUrl="http://wowbrary.org/rss.aspx?l=597&amp;c=SFF"/>
+		<outline text="Wowbrary: Latest Books, Movies, and Music in the Waltham Public Library" type="rss" version="RSS" htmlUrl="http://wowbrary.org/nu.aspx?p=597" xmlUrl="http://wowbrary.org/rss.aspx?l=597"/>
+		<outline text="Beat the Press – Center for Economic and Policy Research" type="rss" version="RSS" htmlUrl="https://cepr.net/" xmlUrl="https://cepr.net/blog/dean-bakers-beat-the-press/feed/"/>
+		<outline text="House and Hammer" type="rss" version="RSS" htmlUrl="https://www.houseandhammer.com/" xmlUrl="https://www.houseandhammer.com/feed/"/>
+		<outline text="#NotHimUs – The Canary" type="rss" version="RSS" htmlUrl="https://www.thecanary.co/" xmlUrl="https://www.thecanary.co/topics/nothimus/feed/"/>
+		<outline text="Sludge" type="rss" version="RSS" htmlUrl="https://readsludge.com/" xmlUrl="https://readsludge.com/feed/"/>
+		<outline text="Alternet.org" type="rss" version="RSS" htmlUrl="https://www.alternet.org/" xmlUrl="https://www.alternet.org/feeds/feed.rss"/>
+		<outline text="Haymarket Books" type="rss" version="RSS" htmlUrl="https://www.haymarketbooks.org/blogs" xmlUrl="https://www.haymarketbooks.org/blog_rss"/>
+		<outline text="MintPress News" type="rss" version="RSS" htmlUrl="https://www.mintpressnews.com/" xmlUrl="https://www.mintpressnews.com/feed/"/>
+	</body>
+</opml>
