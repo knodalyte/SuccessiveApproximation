@@ -6,40 +6,12 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>https://knodalyte.github.io/SuccessiveApproximation/authors/craig-allen.xml</loc>
-  <lastmod>2020-12-13T20:26:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://knodalyte.github.io/SuccessiveApproximation/authors/roberto-alsina.xml</loc>
-  <lastmod>2020-12-13T17:59:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://knodalyte.github.io/SuccessiveApproximation/categories/blog.xml</loc>
-  <lastmod>2020-12-13T17:53:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://knodalyte.github.io/SuccessiveApproximation/categories/cat_nikola.xml</loc>
-  <lastmod>2020-12-13T17:53:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://knodalyte.github.io/SuccessiveApproximation/categories/demo.xml</loc>
-  <lastmod>2020-12-13T17:53:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>https://knodalyte.github.io/SuccessiveApproximation/categories/linux.xml</loc>
   <lastmod>2020-12-13T20:26:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://knodalyte.github.io/SuccessiveApproximation/categories/nikola.xml</loc>
-  <lastmod>2020-12-13T17:53:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>https://knodalyte.github.io/SuccessiveApproximation/categories/predictions.xml</loc>
   <lastmod>2020-12-13T17:59:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://knodalyte.github.io/SuccessiveApproximation/categories/python.xml</loc>
-  <lastmod>2020-12-13T17:53:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://knodalyte.github.io/SuccessiveApproximation/categories/travel.xml</loc>
@@ -51,18 +23,18 @@
  </sitemap>
  <sitemap>
   <loc>https://knodalyte.github.io/SuccessiveApproximation/galleries/demo/rss.xml</loc>
-  <lastmod>2020-12-13T20:07:00Z</lastmod>
+  <lastmod>2020-12-14T17:21:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://knodalyte.github.io/SuccessiveApproximation/galleries/rss.xml</loc>
-  <lastmod>2020-12-13T20:07:00Z</lastmod>
+  <lastmod>2020-12-14T17:21:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://knodalyte.github.io/SuccessiveApproximation/rss.xml</loc>
-  <lastmod>2020-12-13T20:26:00Z</lastmod>
+  <lastmod>2020-12-14T15:08:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://knodalyte.github.io/SuccessiveApproximation/sitemap.xml</loc>
-  <lastmod>2020-12-13T21:41:00Z</lastmod>
+  <lastmod>2020-12-14T20:41:00Z</lastmod>
  </sitemap>
 </sitemapindex>

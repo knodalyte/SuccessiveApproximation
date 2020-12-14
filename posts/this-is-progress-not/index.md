@@ -6,7 +6,6 @@
 .. category: 
 .. link: 
 .. description: 
-.. type: micro
 .. author: Craig Allen
 -->
 

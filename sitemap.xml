@@ -7,15 +7,11 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://knodalyte.github.io/SuccessiveApproximation/</loc>
-  <lastmod>2020-12-13T20:07:00Z</lastmod>
+  <lastmod>2020-12-14T14:37:00Z</lastmod>
  </url>
  <url>
   <loc>https://knodalyte.github.io/SuccessiveApproximation/2011/</loc>
   <lastmod>2020-12-13T17:59:00Z</lastmod>
- </url>
- <url>
-  <loc>https://knodalyte.github.io/SuccessiveApproximation/2012/</loc>
-  <lastmod>2020-12-13T17:53:00Z</lastmod>
  </url>
  <url>
   <loc>https://knodalyte.github.io/SuccessiveApproximation/2014/</loc>
@@ -31,51 +27,19 @@
  </url>
  <url>
   <loc>https://knodalyte.github.io/SuccessiveApproximation/archive.html</loc>
-  <lastmod>2020-12-13T20:07:00Z</lastmod>
- </url>
- <url>
-  <loc>https://knodalyte.github.io/SuccessiveApproximation/authors/</loc>
-  <lastmod>2020-12-13T17:59:00Z</lastmod>
- </url>
- <url>
-  <loc>https://knodalyte.github.io/SuccessiveApproximation/authors/craig-allen/</loc>
-  <lastmod>2020-12-13T17:59:00Z</lastmod>
- </url>
- <url>
-  <loc>https://knodalyte.github.io/SuccessiveApproximation/authors/roberto-alsina/</loc>
-  <lastmod>2020-12-13T17:59:00Z</lastmod>
+  <lastmod>2020-12-14T17:21:00Z</lastmod>
  </url>
  <url>
   <loc>https://knodalyte.github.io/SuccessiveApproximation/categories/</loc>
-  <lastmod>2020-12-13T20:07:00Z</lastmod>
- </url>
- <url>
-  <loc>https://knodalyte.github.io/SuccessiveApproximation/categories/blog/</loc>
-  <lastmod>2020-12-13T17:53:00Z</lastmod>
- </url>
- <url>
-  <loc>https://knodalyte.github.io/SuccessiveApproximation/categories/cat_nikola/</loc>
-  <lastmod>2020-12-13T17:53:00Z</lastmod>
- </url>
- <url>
-  <loc>https://knodalyte.github.io/SuccessiveApproximation/categories/demo/</loc>
-  <lastmod>2020-12-13T17:53:00Z</lastmod>
+  <lastmod>2020-12-14T20:40:00Z</lastmod>
  </url>
  <url>
   <loc>https://knodalyte.github.io/SuccessiveApproximation/categories/linux/</loc>
   <lastmod>2020-12-13T17:59:00Z</lastmod>
  </url>
  <url>
-  <loc>https://knodalyte.github.io/SuccessiveApproximation/categories/nikola/</loc>
-  <lastmod>2020-12-13T17:53:00Z</lastmod>
- </url>
- <url>
   <loc>https://knodalyte.github.io/SuccessiveApproximation/categories/predictions/</loc>
   <lastmod>2020-12-13T17:59:00Z</lastmod>
- </url>
- <url>
-  <loc>https://knodalyte.github.io/SuccessiveApproximation/categories/python/</loc>
-  <lastmod>2020-12-13T17:53:00Z</lastmod>
  </url>
  <url>
   <loc>https://knodalyte.github.io/SuccessiveApproximation/categories/travel/</loc>
@@ -95,15 +59,7 @@
  </url>
  <url>
   <loc>https://knodalyte.github.io/SuccessiveApproximation/listings/</loc>
-  <lastmod>2020-12-13T17:53:00Z</lastmod>
- </url>
- <url>
-  <loc>https://knodalyte.github.io/SuccessiveApproximation/listings/__pycache__/</loc>
-  <lastmod>2020-12-13T17:53:00Z</lastmod>
- </url>
- <url>
-  <loc>https://knodalyte.github.io/SuccessiveApproximation/listings/hello.py.html</loc>
-  <lastmod>2020-12-13T20:07:00Z</lastmod>
+  <lastmod>2020-12-14T20:40:00Z</lastmod>
  </url>
  <url>
   <loc>https://knodalyte.github.io/SuccessiveApproximation/posts/adopting-qtile/</loc>
@@ -128,9 +84,5 @@
  <url>
   <loc>https://knodalyte.github.io/SuccessiveApproximation/posts/this-is-progress-not/</loc>
   <lastmod>2020-12-13T17:59:00Z</lastmod>
- </url>
- <url>
-  <loc>https://knodalyte.github.io/SuccessiveApproximation/posts/welcome-to-nikola/</loc>
-  <lastmod>2020-12-13T17:53:00Z</lastmod>
  </url>
 </urlset>
